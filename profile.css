@@ -176,7 +176,7 @@ text-decoration: underline;
   /* border: 1px solid red; */
   margin: 80px 0px 60px 0px;
   display: grid;
-  grid-template-columns: 22% 22% 22%;
+  grid-template-columns: 21% 21% 21%;
   gap: 35px;
   justify-content: center;
   
