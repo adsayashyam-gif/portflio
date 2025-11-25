@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    background-image: url(./proflie_images/profile_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
+}
+.color{
+    background-color: rgba(0, 0, 0, 0.422);
+    height: 100vh;
+}
+.navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.422);
+}
+.anime{
+    /* border: 1px solid red; */
+}
+.anime img{
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 24px;
+}
+.anime_para{
+    font-size: 19px;
+    color: white;
+    display: flex;
+    gap: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.anime_para a{
+    color: white;
+    text-decoration: none;
+}
+.anime_para a:hover{
+  color: rgb(255, 111, 0);
+text-decoration: underline;
+}
+
+.content{
+    /* border: 1px solid red; */
+    height: 90%;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.content_para{
+     /* border: 1px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 600px;
+}
+.content_title{
+  color: white;
+ 
+  font-weight: 600;
+  font-size: 70px;
+}
+.full_stack{
+     color: white;
+     font-size: 20px;
+     padding: 10px 0px 15px 0px;
+     line-height: 26px;
+}
+.download{
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 60px;
+    border: 2px solid #fc6060;
+    background-color:#00000000;
+    letter-spacing: 1px;
+}
+
+.download:hover{
+    background-color: #fc6060;
+    color: black;
+}
+.about_us{
+    /* border: 1px solid red; */
+    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 35% 30%;
+    justify-content: center;
+    gap: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about_content{
+     /* border: 1px solid green; */
+}
+.about_title{
+    font-size: 35px;
+  font-weight: 600;
+  
+}
+.lorem_para{
+    padding: 20px 0px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.lorem_para2{
+    padding: 0px 0px 20px 0px;
+    font-size: 19px;
+    line-height: 25px;
+}
+.call{
+    padding: 10px 20px;
+    font-size: 14px;
+   
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    border: 2px solid #fc6060;
+    border-radius: 60px;
+     letter-spacing: 1px;
+}
+.call:hover{
+    background-color: #fc6060;
+    color: white;
+    
+}
+.box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+.box img{
+    border-radius: 20px;
+}
+
+.three{
+    /* border: 1px solid red; */
+     margin-top: 100px;
+}
+.skills{
+   
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* padding: 20px 0px 0px 0px; */
+}
+.skill_title{
+    color: rgb(11, 11, 11);
+    font-size: 45px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+.necessary{
+    color: rgb(2, 2, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills_grid{
+  /* border: 1px solid red; */
+  margin: 80px 0px 60px 0px;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  gap: 20px;
+  justify-content: center;
+  
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills_content{
+     /* border: 1px solid green; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 40px 12px 30px 15px;
+   transition: transform 0.8s;
+}
+.skill_icon{
+    font-size: 30px;
+    color: #e70707;
+}
+.lorem_title{
+    padding-top: 10px;
+      font-size: 25px;
+      font-weight: 600;
+      color: #0b0b0b;
+}
+.lorem_grey{
+    padding: 15px 0px;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(19, 18, 18, 0.704);
+}
+.skills_content:hover{
+  background-color: #fc6060;
+  transform: translateY(-10px);
+}
+.skills_content:hover .white{
+    color: white !important;
+}
+
+.four{
+    /* border: 1px solid red; */
+    margin-top: 70px;
+    background-color: #060606;
+}
+.main{
+    padding: 30px 0px;
+/* border: 1px solid rgb(27, 25, 25); */
+display: flex;
+justify-content: space-around;
+
+}
+.iconss{
+    display: flex;
+    gap: 80px;
+}
+.contact_title{
+    font-size: 20px;
+    color: rgb(252, 251, 251);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+.four_icons{
+     font-size: 25px;
+     color: white;
+}
+.contact_title:hover{
+    color: #fc6060;
+}
+
+.four_icons a{
+    color: white;
+}
+.four_icons a:hover{
+    color: #fc6060;
+}
+/* .one{
+    border: 1px solid red;
+} */
+
+@media screen and (max-width: 426px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .one{order: 2;}
+    .box{order: 1;}
+
+    .skills{
+        
+        text-align: center;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .contact_title{
+        display: none;
+    }
+    .iconss{
+        gap: 70px;
+    }
+    .anime_para{
+        display: none;
+    }
+    
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+    .anime img{
+    /* border: 1px solid red; */
+    width: 80px;
+    height: 20px;
+    }
+    .anime_para{
+        font-size: 15px;
+        gap: 35px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 40% 45%;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+}
+
