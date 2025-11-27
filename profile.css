@@ -288,8 +288,71 @@ justify-content: space-around;
 .year{
     font-size: 35px;
 }
+.project{
+    /* border: 1px solid red; */
+    background-color: #f4f1f1;
+   
+}
+.project_title{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 20px 0px 0px 0px;
+}
+.my{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.project_grid{
+    padding: 120px 0px 0px 0px;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: 40% 30%;
+    justify-content: center;
+    gap: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.green{
+ /* border: 1px solid yellow; */
+}
+.clothing_title{
+    text-align: center;
+     font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 34px;
+}
+.clothing_para{
+ 
+    line-height: 27px;
+    font-size: 17px;
+}
 
-
+.view_project{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
+}
+.big{
+    font-size: 20px;
+}
+.span_icons{
+ /* border: 1px solid red; */
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+}
+.git{
+    text-decoration: none;
+    color: black;
+}
+.git_title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}
 /* .one{
     border: 1px solid red;
 } */
