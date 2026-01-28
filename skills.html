@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.three{
+    /* border: 1px solid red; */
+     margin-top: 100px;
+}
+.skills{
+   
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* padding: 20px 0px 0px 0px; */
+}
+.skill_title{
+    color: rgb(11, 11, 11);
+    font-size: 45px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+.necessary{
+    color: rgb(2, 2, 2);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills_grid{
+  /* border: 1px solid red; */
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 22% 22% 22% 22%;
+  gap: 20px;
+  justify-content: center;
+  
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills_content{
+     /* border: 1px solid green; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    padding: 40px 12px 30px 15px;
+   transition: transform 0.8s;
+}
+.skill_icon{
+    font-size: 30px;
+    color: #e70707;
+}
+.lorem_title{
+    padding-top: 10px;
+      font-size: 25px;
+      font-weight: 600;
+      color: #0b0b0b;
+}
+.lorem_grey{
+    padding: 15px 0px;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(19, 18, 18, 0.704);
+}
+.skills_content:hover{
+  background-color: #fc6060;
+  transform: translateY(-10px);
+}
+.skills_content:hover .white{
+    color: white !important;
+}
+.background{
+    background-image: url(./proflie_images/profile_background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 70vh;
+    object-fit: cover;
+}
+.color{
+    background-color: rgba(0, 0, 0, 0.422);
+    height: 70vh;
+}
+.navbar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: rgba(0, 0, 0, 0.422);
+}
+.anime{
+    /* border: 1px solid red; */
+}
+.anime img{
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 24px;
+}
+.anime_para{
+    font-size: 19px;
+    color: white;
+    display: flex;
+    gap: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.anime_para a{
+    color: white;
+    text-decoration: none;
+}
+.anime_para a:hover{
+  color: rgb(255, 111, 0);
+text-decoration: underline;
+}
+
+.content{
+    /* border: 1px solid red; */
+    height: 90%;
+   
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.content_para{
+     /* border: 1px solid red; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     width: 600px;
+}
+.content_title{
+  color: white;
+ 
+  font-weight: 600;
+  font-size: 70px;
+}
+.full_stack{
+     color: white;
+     font-size: 20px;
+     padding: 10px 0px 15px 0px;
+     line-height: 26px;
+}
+.download{
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 60px;
+    border: 2px solid #fc6060;
+    background-color:#00000000;
+    letter-spacing: 1px;
+}
+
+.download:hover{
+    background-color: #fc6060;
+    color: black;
+}
+
+@media screen and (max-width: 426px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .one{order: 2;}
+    .box{order: 1;}
+
+    .skills{
+        
+        text-align: center;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .contact_title{
+        display: none;
+    }
+    .iconss{
+        gap: 70px;
+    }
+    .anime_para{
+        display: none;
+    }
+    
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 40% 40%;
+    }
+    .anime img{
+    /* border: 1px solid red; */
+    width: 80px;
+    height: 20px;
+    }
+    .anime_para{
+        font-size: 15px;
+        gap: 35px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .about_us{
+        display: grid;
+        grid-template-columns: 40% 45%;
+    }
+    .skills_grid{
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+}
+    </style>
+</head>
+<body>
+
+     <div class="background" id="home">
+        <div class="color">
+      <div class="navbar">
+       <div class="anime">
+        <img src="./proflie_images/logo.jpg" alt="img">
+       </div>
+       <div class="anime_para">
+        <p><a href="./profile.html" target="_blank">HOME</a></p>
+        <p><a href="./about_me.html" target="_blank">ABOUT ME</a></p>
+        <p><a>PROJECT</a></p>
+        <p><a href="./skills.html" target="_blank">SKILLS</a></p>
+        <p><a href="">CONTACT</a></p>
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+       </div>
+      </div>
+
+  <div class="content">
+    <div class="content_para">
+      <div data-aos="fade-up"
+     data-aos-duration="3000">
+       <p class="content_title">HELLO</p>
+       <p class="content_title">I'M ADSAYA</p>
+    <div data-aos="fade-up"
+     data-aos-duration="1800">
+       <p class="full_stack">I'm a Full-Stack Developer who enjoys building user-friendly digital experiences.</p>
+    </div>
+        <button class="download">DOWNLOAD CV</button>
+        </div>
+    </div>
+</div>
+
+</div>
+    </div>
+    
+  <div class="three">
+
+      <div class="skills">
+        
+<div data-aos="fade-up"
+     data-aos-duration="2000">
+        <p class="skill_title">SKILLS</p>
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="2000">
+        <p class="necessary">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        </div>
+         </div>
+        <div class="skills_grid">
+         <div data-aos="fade-up"
+     data-aos-duration="2000">
+            <div class="skills_content">
+                
+                <span class="skill_icon white"><i class="bi bi-activity"></i></span>
+                <p class="lorem_title white">Lorem Ipsum</p>
+                <p class="lorem_grey white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum alias hic dolorum ut, deleniti sit commodi, ex repellendus expedita suscipit.</p>
+           
+            </div>
+            </div>
+
+           <div data-aos="fade-up"
+     data-aos-duration="1500">
+            <div class="skills_content">
+              
+                <span class="skill_icon white"><i class="bi bi-bounding-box-circles"></i></span>
+                <p class="lorem_title white">Set ut perspici</p>
+                <p class="lorem_grey white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum alias hic dolorum ut, deleniti sit commodi, ex repellendus expedita suscipit.</p>
+          
+            </div>
+            </div>
+
+          <div data-aos="fade-up"
+     data-aos-duration="1000">
+            <div class="skills_content">
+               
+                <span class="skill_icon white"><i class="bi bi-calendar-week"></i></span>
+                <p class="lorem_title white">Magni Dolores</p>
+                <p class="lorem_grey white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum alias hic dolorum ut, deleniti sit commodi, ex repellendus expedita suscipit.</p>
+           
+            </div>
+            </div>
+
+            <div data-aos="fade-up"
+     data-aos-duration="800">
+            <div class="skills_content">
+              
+                <span class="skill_icon white"><i class="bi bi-broadcast"></i></span>
+                <p class="lorem_title white">Nemo Enim</p>
+                <p class="lorem_grey white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum alias hic dolorum ut, deleniti sit commodi, ex repellendus expedita suscipit.</p>
+          
+            </div>
+       </div>
+       </div>
+
+   </div>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+  AOS.init();
+</script>
+
+</body>
+</html>
